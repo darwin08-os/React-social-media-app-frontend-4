@@ -25,7 +25,7 @@ function App() {
 
   return (
     <div className="App">
-
+ 
 <div className="app-content">
     <Sidebar logoutfun={logoutfun} />
     <div className="content">
@@ -41,6 +41,7 @@ function App() {
     </div>
 </div>
 
+ 
     </div>
   );
 }

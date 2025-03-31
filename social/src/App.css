@@ -15,6 +15,9 @@
  
 }
 
+.Sidebar{
+  position: fixed;
+}
  
 .App-logo {
   height: 40vmin;

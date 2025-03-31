@@ -17,7 +17,7 @@
     "username": "nakul",
     "password": "123",
     "bio":"my name is nakul, user of this App",
-        "profilePic": null,
+        "profilePic": "nakul.jpeg",
         "isPrivate":true,
         "followers":["darwin","tonny_patel"],
         "following":["darwin","tonny_patel"],
