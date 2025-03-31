@@ -1,0 +1,30 @@
+.Settings{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:5px 5px 5px 100px;
+}
+.privacy-Setting{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 10px;
+    /* background-color: rgb(245, 68, 144); */
+    color: white;
+    width: 90%;
+    text-align: left;
+}
+
+.btn{
+    text-align: center;
+}
+
+.private-status{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+}

@@ -1,0 +1,44 @@
+[
+    {
+    "username": "darwin",
+    "password": "12345",
+    "bio":"my name is darwin creator of this App",
+    "profilePic": "darwin.jpeg",
+    "isPrivate":false,
+    "followers":["nakul","tonny_patel"],
+    "following":["nakul","tonny_patel"],
+    "story":{
+        "added":false,
+        "storyContent":"darwin_post_1.jpeg"
+    },
+    "post" : ["darwin_post_1.jpg","darwin_post_2.jpg"]
+},
+{
+    "username": "nakul",
+    "password": "123",
+    "bio":"my name is nakul, user of this App",
+        "profilePic": null,
+        "isPrivate":true,
+        "followers":["darwin","tonny_patel"],
+        "following":["darwin","tonny_patel"],
+        "story":{
+            "added":true,
+            "storyContent":"nakul_1.jpg"
+        },
+        "post" : ["nakul_1.jpg","nakul_2.jpg"]
+        },
+{
+    "username": "tonny_patel",
+    "password": "12",
+    "bio":"my name is prince, user of this App",
+        "profilePic": "tonny_patel.jpg",
+        "isPrivate":true,
+        "followers":["darwin","tonny_patel"],
+        "following":["darwin","tonny_patel"],
+        "story":{
+            "added":true,
+            "storyContent":"tonny_1.jpg"
+        },
+        "post" : ["tonny_1.jpg"]
+        }
+]

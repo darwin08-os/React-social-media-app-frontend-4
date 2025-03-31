@@ -1,0 +1,105 @@
+.Profile{
+    padding-left: 150px;
+    height: 100vh;
+    width: 100vw;
+    padding-right: 50px;
+    
+}
+.dp{
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.top-profile{
+    display: flex;
+    /* border: 1px solid black; */
+    justify-content: space-between;
+    width: 100%;
+}
+.top-left-profile{
+    width: 30%;
+    /* border: 1px solid black; */
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top-right-profile{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-evenly;
+    /* border: 1px solid black; */
+    padding: 10px;
+}
+
+.top-right-top-profile{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    /* border: 1px solid black; */
+    height: fit-content;
+}
+
+.followers,.followings{
+    height: fit-content;
+    /* border: 1px solid black; */
+    font-weight: 600;
+    text-align: center;
+}
+.bio{
+    text-align: center;
+}
+
+
+/* bottom page of profile now */
+.bottom-profile{
+    border: 1px solid black;
+}
+.bottom-top{
+    display: flex;
+
+    border: 1px solid black;
+}
+.images,.videos{
+    border: 1px solid black;
+    text-align: center;
+    width: 50%;
+}
+.post-content{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+
+}
+
+
+
+
+/* showing posts */
+.maincontent{
+    position: absolute;
+    z-index: 2;
+    top: 100px;
+    left: 600px;
+    width: 500px;
+    height: 520px;
+    padding-top: 25px;
+    /* background-color: red; */
+}
+
+.maincontent button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+    background-color: transparent;
+}
+
+.postitself{
+    box-shadow: 4px 5px 50px rgb(0,0,0);
+    width: 500px;
+    height: 500px;
+}
