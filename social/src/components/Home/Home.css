@@ -1,0 +1,29 @@
+.Home{
+    width: 100%;
+    border: 10p solid black;
+    height: 100vh;
+    padding-left: 100px;
+}
+.story-content{
+    width: 100%;
+    border: 1px solid black;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 2px;
+}
+
+
+.story-profile{
+    border-radius: 50%;
+    margin: 0px 10px;
+}
+
+.story{
+    position: absolute;
+    top: 50px;
+    left:500px;
+}
+.story button{
+    position: absolute;
+    right: 0;
+}
